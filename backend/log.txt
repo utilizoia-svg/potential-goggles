@@ -1,0 +1,24 @@
+[2025-11-27T18:14:38.322Z] Connected to MongoDB
+[2025-11-27T18:14:38.324Z] Server listening on 0.0.0.0:8000
+[2025-11-27T18:20:48.639Z] GET /api/pokemons
+[2025-11-27T18:20:48.797Z] GET /api/pokemons
+[2025-11-27T18:21:40.728Z] POST /api/pokemons
+[2025-11-27T18:21:40.747Z] Inserted Mongo id: 692896b43c019f7b5b35be91
+[2025-11-27T18:23:49.302Z] GET /api/pokemons
+[2025-11-27T22:48:25.280Z] Connected to MongoDB
+[2025-11-27T22:48:25.283Z] Server listening on 0.0.0.0:8000
+[2025-11-27T22:52:14.437Z] GET /api/pokemons
+[2025-11-27T22:52:14.546Z] GET /api/pokemons
+[2025-11-27T22:52:58.949Z] Mongo deleted id: 692895077e92057d15628249
+[2025-11-27T22:53:01.432Z] Mongo deleted id: 692895077e92057d15628248
+[2025-11-27T22:53:13.830Z] GET /api/pokemons
+[2025-11-27T22:53:13.885Z] GET /api/pokemons
+[2025-11-27T22:54:28.368Z] Mongo deleted id: 692895077e92057d15628247
+[2025-11-27T23:03:33.278Z] GET /api/pokemons
+[2025-11-27T23:03:33.332Z] GET /api/pokemons
+[2025-11-27T23:07:48.304Z] GET /api/pokemons
+[2025-11-27T23:07:48.385Z] GET /api/pokemons
+[2025-11-27T23:11:51.687Z] GET /api/pokemons
+[2025-11-27T23:11:51.729Z] GET /api/pokemons
+[2025-11-27T23:15:01.251Z] GET /api/pokemons
+[2025-11-27T23:15:01.317Z] GET /api/pokemons

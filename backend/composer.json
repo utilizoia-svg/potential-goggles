@@ -1,0 +1,3 @@
+{
+  "deprecated": "El backend PHP fue eliminado. Use Node backend en su lugar (server.js)."
+}
