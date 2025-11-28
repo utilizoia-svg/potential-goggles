@@ -1,0 +1,9 @@
+[build]
+  command = "npm run compile"
+  publish = "build"
+
+# If you want, define production environment variables here (don’t store secrets here if repository is public)
+[context.production.environment]
+  # REACT_APP_API_URL = "https://api.example.com"
+
+# Redirect (required for single-page apps) - optionally defined by _redirects in public/

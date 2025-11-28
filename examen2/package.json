@@ -20,7 +20,11 @@
     "build": "react-scripts build",
     "compile": "npm run build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "netlify:deploy": "npm run compile && npx netlify-cli deploy --prod --dir=build"
+  },
+  "devDependencies": {
+    "netlify-cli": "^11.0.0"
   },
   "eslintConfig": {
     "extends": [

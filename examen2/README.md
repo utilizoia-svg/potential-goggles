@@ -49,6 +49,24 @@ On Netlify, Vercel or similar you can set environment variables in the site sett
 
 - By default the app will call `GET /api/albums`. If your backend is served from the same origin, no extra configuration is needed. If not, provide `REACT_APP_API_URL` at build time.
 
+### Deploying to Netlify
+
+1. Connect the repository on Netlify by clicking "New site from Git" and connect your Git provider.
+2. In the Build settings, set:
+	- Build command: `npm run compile`
+	- Publish directory: `build`
+3. Add environment variables in Netlify site settings (optional):
+	- `REACT_APP_API_URL` — if your backend is served elsewhere.
+4. If you're using Netlify CLI, you can run locally in your project:
+	```powershell
+	npm install
+	npm run compile
+	npm run netlify:deploy
+	```
+	You'll need to login with `npx netlify-cli login` and set the site with `npx netlify-cli link` or pass `--site` with `--prod`.
+
+Because we added `public/_redirects` and `netlify.toml` to the repo, Netlify will handle SPA routing and build automatically via the settings above.
+
 ---
 
 If you want me to add a `deploy` script for a specific provider (e.g. GitHub Pages or Netlify CLI), tell me which provider and I can add it for you.
