@@ -1,0 +1,8 @@
+[build]
+  base = "examen2"
+  command = "npm --prefix examen2 run compile"
+  publish = "examen2/build"
+
+[context.production.environment]
+  # Provide your API url here or set the environment variable in Netlify Dashboard
+  # REACT_APP_API_URL = "https://api.example.com"
